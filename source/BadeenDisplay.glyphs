@@ -8642,7 +8642,7 @@ width = 640;
 },
 {
 glyphname = oe.sc;
-lastChange = "2024-10-23 14:21:14 +0000";
+lastChange = "2024-10-23 14:36:27 +0000";
 layers = (
 {
 layerId = m01;
@@ -8651,11 +8651,12 @@ shapes = (
 ref = o.sc;
 },
 {
-pos = (640,0);
-ref = e;
+alignment = -1;
+pos = (320,0);
+ref = e.sc;
 }
 );
-width = 1280;
+width = 960;
 }
 );
 },
