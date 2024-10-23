@@ -1,11 +1,18 @@
 {
 .appVersion = "3260";
 .formatVersion = 3;
+DisplayStrings = (
+"Šųب/sheen-ar.init/lam_alefHamzabelow-ar"
+);
 customParameters = (
 {
 name = fsType;
 value = (
 );
+},
+{
+name = "Use Typo Metrics";
+value = 1;
 }
 );
 date = "2024-03-26 06:21:29 +0000";
@@ -333,6 +340,40 @@ tag = rlig;
 );
 fontMaster = (
 {
+customParameters = (
+{
+name = winAscent;
+value = 959;
+},
+{
+name = winDescent;
+value = 300;
+},
+{
+name = hheaAscender;
+value = 1150;
+},
+{
+name = hheaDescender;
+value = -250;
+},
+{
+name = hheaLineGap;
+value = 0;
+},
+{
+name = typoAscender;
+value = 1150;
+},
+{
+name = typoDescender;
+value = -250;
+},
+{
+name = typoLineGap;
+value = 0;
+}
+);
 guides = (
 {
 locked = 1;
