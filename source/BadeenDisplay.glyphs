@@ -191,6 +191,7 @@ sub w by w.sc;
 sub x by x.sc;
 sub y by y.sc;
 sub z by z.sc;
+sub idotless by i.sc;
 ";
 tag = smcp;
 },
@@ -14889,6 +14890,7 @@ unicode = 59;
 },
 {
 glyphname = ellipsis;
+lastChange = "2024-10-23 13:53:50 +0000";
 layers = (
 {
 layerId = m01;
@@ -14897,15 +14899,19 @@ shapes = (
 ref = period;
 },
 {
+pos = (310,0);
 ref = period;
 },
 {
+pos = (620,0);
 ref = period;
 }
 );
-width = 320;
+width = 940;
 }
 );
+metricLeft = period;
+metricRight = period;
 unicode = 8230;
 },
 {
@@ -15481,6 +15487,7 @@ unicode = 8218;
 },
 {
 glyphname = quotedblbase;
+lastChange = "2024-10-23 13:54:21 +0000";
 layers = (
 {
 layerId = m01;
@@ -15489,12 +15496,15 @@ shapes = (
 ref = comma;
 },
 {
+pos = (311,0);
 ref = comma;
 }
 );
-width = 320;
+width = 631;
 }
 );
+metricLeft = comma;
+metricRight = comma;
 unicode = 8222;
 },
 {
