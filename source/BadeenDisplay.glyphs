@@ -1,5 +1,5 @@
 {
-.appVersion = "3133";
+.appVersion = "3260";
 .formatVersion = 3;
 customParameters = (
 {
@@ -18872,6 +18872,14 @@ nodes = (
 width = 50;
 }
 );
+}
+);
+instances = (
+{
+instanceInterpolations = {
+m01 = 1;
+};
+name = Regular;
 }
 );
 metrics = (
