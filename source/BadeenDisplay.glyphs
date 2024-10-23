@@ -98,33 +98,32 @@ tag = ccmp;
 },
 {
 automatic = 1;
-code = "lookup locl_latn_0 {
-	script latn;
-	language AZE;
-	sub i by idotaccent;
-	language CRT;
-	sub i by idotaccent;
-	language KAZ;
-	sub i by idotaccent;
-	language TAT;
-	sub i by idotaccent;
-	language TRK;
+code = "script latn;
+language AZE;
+lookup locl_latn_0 {
 	sub i by idotaccent;
 } locl_latn_0;
+language CRT;
+lookup locl_latn_0;
+language KAZ;
+lookup locl_latn_0;
+language TAT;
+lookup locl_latn_0;
+language TRK;
+lookup locl_latn_0;
 
+script latn;
+language ROM;
 lookup locl_latn_1 {
-	script latn;
-	language ROM;
-	sub Scedilla by Scommaaccent;
-	sub scedilla by scommaaccent;
-	language MOL;
 	sub Scedilla by Scommaaccent;
 	sub scedilla by scommaaccent;
 } locl_latn_1;
+language MOL;
+lookup locl_latn_1;
 
+script latn;
+language CAT;
 lookup locl_latn_2 {
-	script latn;
-	language CAT;
 	sub l periodcentered' l by periodcentered.loclCAT;
 	sub L periodcentered' L by periodcentered.loclCAT.case;
 } locl_latn_2;
@@ -218,7 +217,6 @@ sub idotaccent by idotaccent.sc;
 sub igrave by igrave.sc;
 sub imacron by imacron.sc;
 sub iogonek by iogonek.sc;
-sub ij by ij.sc;
 sub j by j.sc;
 sub jdotless by jdotless.sc;
 sub k by k.sc;
@@ -1593,25 +1591,6 @@ width = 320;
 }
 );
 unicode = 73;
-},
-{
-glyphname = IJ;
-layers = (
-{
-layerId = m01;
-shapes = (
-{
-ref = I;
-},
-{
-pos = (320,0);
-ref = J;
-}
-);
-width = 640;
-}
-);
-unicode = 306;
 },
 {
 glyphname = Iacute;
@@ -4959,25 +4938,6 @@ width = 321;
 unicode = 303;
 },
 {
-glyphname = ij;
-layers = (
-{
-layerId = m01;
-shapes = (
-{
-ref = i;
-},
-{
-pos = (321,0);
-ref = j;
-}
-);
-width = 641;
-}
-);
-unicode = 307;
-},
-{
 glyphname = j;
 lastChange = "2024-10-23 14:15:45 +0000";
 layers = (
@@ -7987,25 +7947,6 @@ ref = ogonekcomb;
 }
 );
 width = 320;
-}
-);
-},
-{
-glyphname = ij.sc;
-lastChange = "2024-10-23 14:21:14 +0000";
-layers = (
-{
-layerId = m01;
-shapes = (
-{
-ref = i.sc;
-},
-{
-pos = (320,0);
-ref = j;
-}
-);
-width = 640;
 }
 );
 },
