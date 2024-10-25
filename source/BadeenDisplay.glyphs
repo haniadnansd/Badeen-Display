@@ -5,7 +5,8 @@ DisplayStrings = (
 "۰",
 "۱",
 "۲",
-"۴"
+"۴",
+"Hello World"
 );
 customParameters = (
 {
@@ -16678,7 +16679,7 @@ glyphname = space;
 layers = (
 {
 layerId = m01;
-width = 60;
+width = 100;
 }
 );
 unicode = 32;
@@ -16688,7 +16689,7 @@ glyphname = nbspace;
 layers = (
 {
 layerId = m01;
-width = 60;
+width = 100;
 }
 );
 metricWidth = space;
